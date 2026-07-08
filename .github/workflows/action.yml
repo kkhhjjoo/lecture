@@ -20,5 +20,5 @@ jobs:
           echo $GITHUB_REPOSITORY
       - name: Github Actions Secret 변수 사용해보기
         run: |
-          echo ${{secret.MY_NAME}}
-          echo ${{sectret.MY_HOBBY}}         
+          echo ${{ secrets.MY_NAME }}
+          echo ${{ secrets.MY_HOBBY }}
